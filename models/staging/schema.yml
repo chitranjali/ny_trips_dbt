@@ -1,0 +1,12 @@
+# schema.yml
+
+version: 2
+
+sources:
+    - name: staging
+      database: zoomcamp-389601
+      schema: trips_data_all_zoomcamp_389601
+
+      tables:
+          - name: green_tripdata
+          - name: yellow_tripdata
